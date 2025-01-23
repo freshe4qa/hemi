@@ -51,7 +51,9 @@ Explorer:
 Вписываем свои значения:
 
 POPM_BTC_PRIVKEY=Вписываем private_key
+
 POPM_STATIC_FEE=50
+
 POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 
 CTRL + O Enter CRTL + X
