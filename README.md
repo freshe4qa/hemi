@@ -59,19 +59,29 @@ POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 CTRL + O Enter CRTL + X
 
 cat <<EOT | sudo tee /etc/systemd/system/hemi.service > /dev/null
+
 [Unit]
+
 Description=PopMD Service
+
 After=network.target
 
 [Service]
+
 User=root
+
 EnvironmentFile=/root/hemi/popmd.env
+
 ExecStart=/root/hemi/popmd
+
 WorkingDirectory=/root/hemi/
+
 Restart=on-failure
 
 [Install]
+
 WantedBy=multi-user.target
+
 EOF
 
 ``sudo systemctl daemon-reload``
