@@ -32,11 +32,11 @@ Explorer:
 
 ``sudo apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev tar clang bsdmainutils ncdu unzip libleveldb-dev lz4 screen bc fail2ban -y``
 
-``curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.11.1/heminetwork_v0.11.1_linux_amd64.tar.gz``
+``curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.11.2/heminetwork_v0.11.2_linux_amd64.tar.gz``
 
 ``mkdir -p hemi``
 
-``tar --strip-components=1 -xzvf heminetwork_v0.11.1_linux_amd64.tar.gz -C hemi``
+``tar --strip-components=1 -xzvf heminetwork_v0.11.2_linux_amd64.tar.gz -C hemi``
 
 ``cd hemi``
 
